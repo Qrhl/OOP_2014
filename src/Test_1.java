@@ -1,4 +1,4 @@
-public class Test {
+public class Test_1 {
 
     public static void main(String[] args){
         Vehicule[] tab = new Vehicule[5];

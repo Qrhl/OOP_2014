@@ -9,6 +9,11 @@ public class Voiture extends Vehicule{
     }
 
     @Override
+    public double calculerCout(){
+        return (double) 20 + 2*this.puissance;
+    }
+
+    @Override
     public String toString(){
         return "Voiture:\n" + super.toString();
     }

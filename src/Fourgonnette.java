@@ -9,6 +9,11 @@ public class Fourgonnette extends Utilitaire{
     }
 
     @Override
+    public double calculerCout(){
+        return (double) 30 + 2*this.puissance;
+    }
+
+    @Override
     public String toString(){
         return "Fourgonnette:\n" + super.toString();
     }

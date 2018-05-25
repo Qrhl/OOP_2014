@@ -12,6 +12,9 @@ public abstract class Utilitaire extends Vehicule{
         this.hauteur = 0;
     }
 
+    @Override
+    public abstract double calculerCout();
+
     public void setHauteur(double hauteur) {
         this.hauteur = hauteur;
     }

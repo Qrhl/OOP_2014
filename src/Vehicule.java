@@ -16,6 +16,8 @@ public abstract class Vehicule {
         this.consommation = 0;
     }
 
+    public abstract double calculerCout();
+
     public void setImmatriculation(String immatriculation){
         this.immatriculation = immatriculation;
     }
